@@ -16,6 +16,8 @@ __pycache__/
 
 #Dev file...
 dev/
+src/cards_img/ #ignore card_database ...
+
 # Distribution / packaging
 .Python
 env/
