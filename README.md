@@ -24,12 +24,12 @@ This bot is intended to be used on a linux system, nevertheless could be adpated
 4/Launch the bot: $python2.7 game.py
 ....If it's your first run, the bot will generate an entire database. (pics + information)
 
-#Working module
+#Working modules
 -game management (start/stop/skip-pass turn)
 -identify your hand
 -play a card on the board
 
-#Not working module
+#Not working modules
 -recognize a card already on the board, in particular from your opponent side.
 
 Sorry for the code, looks like something terrible happened...
