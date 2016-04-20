@@ -42,6 +42,13 @@ class Data_manager :
 
     def download_img(self,img_url, filename):
             #first check is the image already exist
+        path = "Hearthstone_bot/"
+        if os.path.isdir("src/cards_img") :
+            pass
+        else : #creat the file to store the cards IMG
+            print("Hearthstone bot creates database ...")
+            os.mkdir("src/cards_img")
+
         dirList=os.listdir("src/cards_img/")
         listdir = []
         for dir in dirList :
