@@ -10,6 +10,12 @@ __pycache__/
 # C extensions
 *.so
 
+
+# Images
+*.[jJ][pP][gG]
+
+#Dev file...
+dev/
 # Distribution / packaging
 .Python
 env/
